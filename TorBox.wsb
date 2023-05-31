@@ -1,0 +1,24 @@
+<Configuration>
+  <MappedFolders>
+    <MappedFolder>
+      <HostFolder>C:\TorBox\HelperScripts</HostFolder>
+      <SandboxFolder>C:\Users\WDAGUtilityAccount\Downloads\HelperScripts</SandboxFolder>
+      <ReadOnly>true</ReadOnly>
+    </MappedFolder>
+    <MappedFolder>
+      <HostFolder>C:\TorBox\ConfigFolder</HostFolder>
+      <SandboxFolder>C:\Users\WDAGUtilityAccount\Desktop\Browser\TorBrowser\Data\Browser</SandboxFolder>
+      <ReadOnly>false</ReadOnly>
+    </MappedFolder>
+  </MappedFolders>
+  <LogonCommand>
+    <Command>C:\Users\WDAGUtilityAccount\Downloads\HelperScripts\Install_TorBrowser.cmd</Command>
+  </LogonCommand>
+  <vGPU>Disable</vGPU>
+  <Networking>Enable</Networking>
+  <AudioInput>Enable</AudioInput>
+  <VideoInput>Enable</VideoInput>
+  <ProtectedClient>Enable</ProtectedClient>
+  <PrinterRedirection>Disable</PrinterRedirection>
+  <ClipboardRedirection>Enable</ClipboardRedirection>
+</Configuration>
